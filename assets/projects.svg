@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="400">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2f" />
+      <stop offset="100%" stop-color="#2a2a40" />
+    </linearGradient>
+    <filter id="glowBlue">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPink">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card 1: Diabetes -->
+  <g transform="translate(50, 50)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#00f2fe" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#00f2fe">Diabetes Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">Logistic Regression Model</text>
+    <circle cx="250" cy="35" r="8" fill="#00f2fe" filter="url(#glowBlue)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Card 2: Fake News -->
+  <g transform="translate(360, 50)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#e94560" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" begin="0.5s" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#e94560">Fake News Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">NLP &amp; Passive Aggressive</text>
+    <circle cx="250" cy="35" r="8" fill="#e94560" filter="url(#glowPink)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+  </g>
+
+  <!-- Card 3: House Price -->
+  <g transform="translate(670, 50)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#00f2fe" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" begin="1s" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#00f2fe">House Price Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">XGBoost Regression</text>
+    <circle cx="250" cy="35" r="8" fill="#00f2fe" filter="url(#glowBlue)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1s" />
+    </circle>
+  </g>
+
+  <!-- Card 4: Loan Status -->
+  <g transform="translate(50, 210)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#e94560" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#e94560">Loan Status Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">Support Vector Machine</text>
+    <circle cx="250" cy="35" r="8" fill="#e94560" filter="url(#glowPink)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1.5s" />
+    </circle>
+  </g>
+
+  <!-- Card 5: Rock and Mine -->
+  <g transform="translate(360, 210)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#00f2fe" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" begin="2s" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#00f2fe">Rock &amp; Mine Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">Sonar Signal Classification</text>
+    <circle cx="250" cy="35" r="8" fill="#00f2fe" filter="url(#glowBlue)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="2s" />
+    </circle>
+  </g>
+
+  <!-- Card 6: Mine Quality -->
+  <g transform="translate(670, 210)">
+    <rect width="280" height="120" rx="10" fill="url(#cardBg)" stroke="#e94560" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" begin="2.5s" />
+    </rect>
+    <text x="20" y="40" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="bold" fill="#e94560">Mine Quality Predictor</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="13" fill="#a0a0b0">Random Forest Regressor</text>
+    <circle cx="250" cy="35" r="8" fill="#e94560" filter="url(#glowPink)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="2.5s" />
+    </circle>
+  </g>
+</svg>
