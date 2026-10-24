@@ -6,7 +6,7 @@
 <!-- ================= STATUS BADGES ================= -->
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github" alt="Status" />
-  <img src="https://img.shields.io/badge/Projects-6+-blue?style=for-the-badge&logo=python" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-10+-blue?style=for-the-badge&logo=python" alt="Projects" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome" />
 </p>
@@ -43,6 +43,10 @@ Here is a breakdown of the projects currently available in this repository. Each
 | **[Loan Status Predictor](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Loan%20Status%20Predictor)** | Classification model to approve or reject loan applications. | Python, Scikit-Learn, Seaborn | SVM |
 | **[Rock And Mine Predictor](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Rock%20And%20Mine%20Predictor)** | Sonar signal classification to differentiate Rocks vs Mines. | Python, Scikit-Learn, NumPy | Logistic Regression |
 | **[Mine Quality Predictor](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Mine%20Quality%20Predictor)** | Predicts the quality of mined materials using regression. | Python, Scikit-Learn, Pandas | Random Forest |
+| **[Wine Quality Predictor](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Wine%20Quality%20Predictor)** | Predicts wine quality based on physicochemical tests. | Python, Scikit-Learn, Matplotlib | Random Forest |
+| **[Titanic Survival Predictor](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Titanic%20Survival%20Predictor)** | Predicts passenger survival on the Titanic. | Python, Scikit-Learn, Pandas | Random Forest |
+| **[Iris Flower Classifier](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Iris%20Flower%20Classifier)** | Classifies iris flowers into three species. | Python, Scikit-Learn, Seaborn | K-Nearest Neighbors |
+| **[Credit Card Fraud Detection](https://github.com/AHMAD-0702/50--Days--OF--Machine--Learning/tree/main/Credit%20Card%20Fraud%20Detection)** | Detects fraudulent credit card transactions. | Python, Scikit-Learn, Imbalanced-Learn | Isolation Forest |
 
 <div align="center">
   <img src="assets/divider.svg" alt="Divider" width="80%" />
